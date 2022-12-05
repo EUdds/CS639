@@ -1,2 +1,2 @@
 # CS639
-The best damn vegetable classifier east of the Mississippi
+Testing Two Approaches to Produce Classification
