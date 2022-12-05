@@ -112,4 +112,5 @@ We decided that a machine learning approach was the way to go for this use case 
 | Final project website completed                                                                	| December 9th  	|A
 
 ## Resources Materials and Cites
+* [Presentation Video](https://youtu.be/j5_cX1wcQSQ)
 * [Kaggle.com](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification) - Dataset used for machine learning model
