@@ -97,25 +97,18 @@ The results of running the Computational model were unfavorable due to the quali
 
 Here below we can see the issues presented above as an an example. The Binarization of the image is an important step in seperating the components of the image in order to grab areas of the apple and areas of rotting. As we can see even when we choose a reasonable Kaggle image of an apple, the flash reflected on the apple ruins our binarization of the image. Whereas our ideal photo not pulled from the Kaggle data set, has a binarization that is more favorable for processing. 
 
-
-
-![](images/kag.png)
-<div align="center"> Figure 7: Binary of Kaggle Apple </div>
-
-
-
-![](images/ideal.png)
-<div align="center"> Figure 8: Binary of Ideal Apple </div>
+|Kaggle Image|Ideal Image|
+|:-:|:-:|
+|![Kaggle Image](idea;.jpg)|![Ideal Image](kag.jpg)|
 
  
-
 
  ### Analysis and Encountered Problems
 
     When starting the project we considered established methods which used the intensity value shifts to find regions of interest based off grayscled images. The main issue with this is that our data from Kaggle had substantial background noise and objects that manipulated the way blob detection was performed. In the established methods this project was adapted from, images were taken from a conveyer belt which provided a uniform background which would compensate for this issue. Additionally, the images were taken using differnt lightingn conditions that were not uniform and added glare to the images when light reflected off the vegitables. This created false positives for rotted regions in the image and returned the produce as rotten when it should have been fresh. In the established methods, images were taken from light that passed through a polorized filter to reduce glare and increase image quality and contrast. When inputing images not apart of the kaggle dataset, results were greatly improved when using highier quality images. 
 
-
 ---
+
 
 ## Decision
 It's not unfair to say that neural networks are a buzzword nowadays. You can see machine learning being thrown into a vast majority of computer vision projects being released. To test if we really needed to utilize machine learning for this particualar project, we decided to do a two pronged approach and test the two. We'll be evaluating the complexity that went into each approach and the accuracy of each approach.
