@@ -84,7 +84,7 @@ The results of running the Computational model were unfavorable due to the quali
 
 
 
-![](images/i.png)
+![](images/i.png)&nbsp;&nbsp;
 <div align="left"> Figure 5: Ideal Photos </div>
 
 
