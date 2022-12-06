@@ -84,12 +84,12 @@ The results of running the Computational model were unfavorable due to the quali
 
 
 
-<div align="left"> Figure 5: Kaggle Photos </div>
-![](images/k.png)
-
-
 ![](images/i.png)
-<div align="left"> Figure 6: Ideal Photos </div>
+<div align="left"> Figure 5: Ideal Photos </div>
+
+
+![](images/k.png)
+<div align="left"> Figure 6: Kaggle Photos </div>
 
 
 
