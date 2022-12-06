@@ -83,7 +83,7 @@ In order to determine whether the produce is rotted or not we will calculate the
 The results of running the Computational model were unfavorable due to the quality of the input images. The Kaggle dataset provided images with substantial background noise and flash reflection on the produce when the images were taken. Once the Computational model was applied on the images the result were false positives for rotted areas due to these issues. When running the model on the Kaggle Data set, we found the accuracy of the model to be 52% accurate. A number that is too low for any production grade software system. When we gave the program images that were both clear and denoised to begin with, the Computational Model had more favorable results. Below we can see the difference when running the program on an ideal image such as the ones that the program is based on, and the Kaggle data set which had varying image qualities.
 
 
-![](images/k.png)
+![](images/k.png){: height="75px" width="300px" style="float:left; padding-right:10px" }
 <div align="center"> Figure 5: Kaggle Photos </div>
 
 
