@@ -85,16 +85,13 @@ The results of running the Computational model were unfavorable due to the quali
 
 
 <div align="left"> Figure 5: Kaggle Photos </div>
-![](images/k.png){: height="75px" width="300px" style="float:left; padding-right:10px" }
-
+![](images/k.png)
 
 <br>
 
-
-<div align="left"> Figure 6: Ideal Photos </div>
 ![](images/i.png)
+<div align="left"> Figure 6: Ideal Photos </div>
 
-<br>
 
 Here below we can see the issues presented above as an an example. The Binarization of the image is an important step in seperating the components of the image in order to grab areas of the apple and areas of rotting. As we can see even when we choose a reasonable Kaggle image of an apple, the flash reflected on the apple ruins our binarization of the image. Whereas our ideal photo not pulled from the Kaggle data set, has a binarization that is more favorable for processing. 
 
