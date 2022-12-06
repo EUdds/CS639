@@ -80,23 +80,32 @@ In order to determine whether the produce is rotted or not we will calculate the
 
 ### Results
 
-   The results of running the Computational model were unfavorable due to the quality of the input images. The Kaggle dataset provided images with substantial backgorund noise and flash reflection on the produce when the images were taken. The result of these images once the Computational model was applied was false positives due to these issues. When running the model on the Kaggle Data set we found the accurrcy of the model to be 
+The results of running the Computational model were unfavorable due to the quality of the input images. The Kaggle dataset provided images with substantial background noise and flash reflection on the produce when the images were taken. Once the Computational model was applied on the images the result were false positives for rotted areas due to these issues. When running the model on the Kaggle Data set, we found the accuracy of the model to be 52% accurate. A number that is too low for any production grade software system. When we gave the program images that were both clear and denoised to begin with, the Computational Model had more favorable results. Below we can see the difference when running the program on an ideal image such as the ones that the program is based on, and the Kaggle data set which had varying image qualities.
+
+
+![](images/kagglephotos.png)
+<div align="center"> Figure 5: Kaggle Photos </div>
+
+
+![](images/idealphotos.png)
+<div align="center"> Figure 6: Ideal Photos </div>
+
+
+Here below we can see the issues presented above as an an example. The Binarization of the image is an important step in seperating the components of the image in order to grab areas of the apple and areas of rotting. As we can see even when we choose a reasonable Kaggle image of an apple, the flash reflected on the apple ruins our binarization of the image. Whereas our ideal photo not pulled from the Kaggle data set, has a binarization that is more favorable for processing. 
+
+
+Kaggle Image          |  Ideal Image
+:-------------------------:|:-------------------------:
+![](kag.jpg)  |  ![](ideal.jpg)
 
  
  
-
-
 
 
  ### Analysis and Encountered Problems
 
     When starting the project we considered established methods which used the intensity value shifts to find regions of interest based off grayscled images. The main issue with this is that our data from Kaggle had substantial background noise and objects that manipulated the way blob detection was performed. In the established methods this project was adapted from, images were taken from a conveyer belt which provided a uniform background which would compensate for this issue. Additionally, the images were taken using differnt lightingn conditions that were not uniform and added glare to the images when light reflected off the vegitables. This created false positives for rotted regions in the image and returned the produce as rotten when it should have been fresh. In the established methods, images were taken from light that passed through a polorized filter to reduce glare and increase image quality and contrast. When inputing images not apart of the kaggle dataset, results were greatly improved when using highier quality images. 
 
-
-
-
-dont know if need this now?
- However this approach would only work for produce that has significantly discolored spots. Another method could be to compare brightness of the pixels of the object compared to the brightness of the background to find a pale, washed out color found on stale tomatoes, apples, and other red produce. A problem with this approach is that it’s unknown how this method would apply to other colored produce. A combination of the above with a voting system could give an accurate classification on if a produce is imperfect or not.
 
 ---
 
