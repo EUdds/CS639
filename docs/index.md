@@ -136,4 +136,5 @@ We decided that a machine learning approach was the way to go for this use case 
 
 ## Resources Materials and Cites
 * [Presentation Video](https://youtu.be/j5_cX1wcQSQ)
+* [Code Used In Project](https://github.com/EUdds/CS639)
 * [Kaggle.com](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification) - Dataset used for machine learning model
