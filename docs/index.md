@@ -137,3 +137,4 @@ We decided that a machine learning approach was the way to go for this use case 
 ## Resources Materials and Cites
 * [Presentation Video](https://youtu.be/j5_cX1wcQSQ)
 * [Kaggle.com](https://www.kaggle.com/sriramr/fruits-fresh-and-rotten-for-classification) - Dataset used for machine learning model
+* [iopscience.iop.org](https://iopscience.iop.org/article/10.1088/1742-6596/1952/2/022048/pdf) - research paper used as reference.
